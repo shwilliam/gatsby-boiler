@@ -5,7 +5,7 @@ import SEO from '../components/seo'
 const AboutPage = () => (
   <Layout>
     <SEO title="About" keywords={[`about`]} />
-    <div className="f3 tc mv6 pb6">about page</div>
+    <div className="f1 fw6 tc mv5">about</div>
   </Layout>
 )
 

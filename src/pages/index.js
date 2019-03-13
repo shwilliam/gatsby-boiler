@@ -1,12 +1,11 @@
 import React from 'react'
 import Layout from '../components/layout'
-import Hello from '../components/hello'
 import SEO from '../components/seo'
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" keywords={[`home`]} />
-    <Hello/>
+    <div className="f1 fw6 tc mv5">home</div>
   </Layout>
 )
 

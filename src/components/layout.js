@@ -20,7 +20,7 @@ const Layout = ({ children }) => (
       }
     `}
     render={data => (
-      <div className="sans-serif near-black fw3 mw9 center ph5-l ph3">
+      <div className="sans-serif near-black mw9 center ph6-l ph4">
         <Header siteTitle={data.site.siteMetadata.title} />
         <main role="main">
           {children}

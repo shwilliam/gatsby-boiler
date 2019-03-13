@@ -5,7 +5,15 @@ module.exports = {
     author: `@shwilliam`
   },
   plugins: [
+    `gatsby-plugin-netlify-cms`,
     `gatsby-plugin-react-helmet`,
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/blog`,
+        name: 'markdown-pages'
+      }
+    },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -13,6 +21,7 @@ module.exports = {
         path: `${__dirname}/src/images`
       }
     },
+    `gatsby-transformer-remark`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
