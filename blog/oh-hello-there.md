@@ -1,5 +1,5 @@
 ---
-path: test-3
+path: /test-3
 date: 2019-03-13T05:35:47.893Z
 title: 'Oh, hello there'
 ---
